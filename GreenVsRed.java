@@ -16,13 +16,6 @@ public class GreenVsRed {
 
 
 
-    //User enters values -> matrix[][]; x, y, g; UserInputCollector;.collectMatrixSize;
-    //Game/GreenVsRedCalculator;
-    //Inheritance; Interface;
-    //Define constants so not to have magic numbers;
-    //Do not check for string numbers - "1", "0", use normal numbers
-
-
     public void createArray(int[][] newArray, int rows, int cols) {
         for (int i = 0; i < rows; i++) {
             System.out.print("Enter values of the rows : ");
